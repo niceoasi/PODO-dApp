@@ -57939,7 +57939,7 @@
                         shape: "round",
                         type: "primary",
                         onClick: s,
-                        children: "Connect Wallet"
+                        children: "Okay"
                     })
                 }), (0, Xg.jsx)(wm, {
                     title: "Connect to Tonkeeper",
