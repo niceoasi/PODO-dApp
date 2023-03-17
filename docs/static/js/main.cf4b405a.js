@@ -58896,51 +58896,6 @@
                 return i(e.updated_src)
             }), []);
             return (0, Xg.jsxs)("div", {
-                className: "send-tx-form",
-                children: [(0, Xg.jsx)(ZE, {
-                    level: 3,
-                    children: "Configure and send transaction"
-                }), v && r ? (0, Xg.jsxs)(Xg.Fragment, {
-                    children: [(0, Xg.jsx)(ZE, {
-                        level: 4,
-                        children: "Create NFT and send to the friend"
-                    }), (0, Xg.jsxs)("div", {
-                        className: "send-tx-wrapper",
-                        children: [(0, Xg.jsxs)("div", {
-                            className: "send-tx-input-wrapper",
-                            children: ["(Optional) Send NFT to (user friendly address):", (0, Xg.jsx)(Qg, {
-                                value: s,
-                                onChange: function(e) {
-                                    return c(e.target.value)
-                                }
-                            }), (0, Xg.jsx)("span", {
-                                className: Ds()("send-tx-input-wrapper-error", {
-                                    "send-tx-input-wrapper-error_show": p
-                                }),
-                                children: "Wrong address"
-                            })]
-                        }), (0, Xg.jsx)(DE(), {
-                            src: r,
-                            theme: "ocean",
-                            onEdit: b,
-                            onAdd: b,
-                            onDelete: b
-                        }), (0, Xg.jsx)(rv, {
-                            type: "primary",
-                            shape: "round",
-                            disabled: p,
-                            onClick: function() {
-                                return function(e, t) {
-                                    return oy.apply(this, arguments)
-                                }(r, g.contents.walletsList[0])
-                            },
-                            children: "Send transaction"
-                        })]
-                    })]
-                }) : (0, Xg.jsx)("div", {
-                    className: "send-tx-form__error",
-                    children: "Connect wallet to send the transaction"
-                })]
             })
         }
         var GE = function() {
