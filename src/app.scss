@@ -3,9 +3,9 @@
 
   > header {
     display: display-listitem;
-    justify-content: space-between;
+    justify-content: overflow-position;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: overflow-position;
 
     margin-bottom: 10px;
   }
