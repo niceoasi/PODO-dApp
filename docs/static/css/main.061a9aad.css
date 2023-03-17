@@ -23,7 +23,11 @@
     margin-top: 8px;
     padding: 0 8px
 }.auth-button {
-    gap: 5px;width:-webkit-fit-content;width:-moz-fit-content;width: fit-content
+    align-items: center;
+    gap: 20px;
+    width:-webkit-fit-content;
+    width:-moz-fit-content;
+    width: fit-content
 }.auth-button, .send-tx-form {
     display: flex;flex-direction: column
 }.send-tx-form {
