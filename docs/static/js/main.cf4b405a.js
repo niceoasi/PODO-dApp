@@ -45670,7 +45670,7 @@
                 lime: "#A0D911",
                 green: "#52C41A",
                 cyan: "#13C2C2",
-                blue: "#1890FF",
+                blue: "#FF7C31",
                 geekblue: "#2F54EB",
                 purple: "#722ED1",
                 magenta: "#EB2F96",
@@ -45885,7 +45885,7 @@
             })
         }
         var Zc = ["className", "icon", "spin", "rotate", "tabIndex", "onClick", "twoToneColor"];
-        Kc("#1890ff");
+        Kc("#FF7C31");
         var Hc = e.forwardRef((function(t, n) {
             var r, i = t.className,
                 o = t.icon,
