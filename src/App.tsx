@@ -14,7 +14,10 @@ function App() {
 		<header>
 			<AppTitle />
 		</header>
-		<div className=\"authButton\">
+		<div className=\"auth-button\">
+		<main>
+			<AuthButton />
+		</main>
 		</div>
 	);
 }

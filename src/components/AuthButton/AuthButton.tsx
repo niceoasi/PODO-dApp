@@ -74,7 +74,7 @@ export function AuthButton() {
 
 	return (
 		<>
-			<div className="button">
+			<div className="auth-button">
 				<Button shape="round" type="primary" onClick={handleButtonClick}>
 						Connect Wallet
 				</Button>

@@ -25,6 +25,7 @@
 }.auth-button {
     align-items: center;
     gap: 20px;
+    margin-top: 50px;
     width:-webkit-fit-content;
     width:-moz-fit-content;
     width: fit-content
