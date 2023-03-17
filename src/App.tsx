@@ -14,9 +14,9 @@ function App() {
 		<div className="app">
 			<header>
 				<AppTitle />
-				<AuthButton />
 			</header>
 			<main>
+				<AuthButton />
 				<TxForm />
 			</main>
 		</div>
