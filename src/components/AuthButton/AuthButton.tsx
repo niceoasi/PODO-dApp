@@ -75,20 +75,9 @@ export function AuthButton() {
 	return (
 		<>
 			<div className="auth-button">
-				{wallet ? (
-					<Dropdown overlay={menu}>
-						<Button shape="round" type="primary">
-							<Space>
-								{address}
-								<DownOutlined />
-							</Space>
-						</Button>
-					</Dropdown>
-				) : (
-					<Button shape="round" type="primary" onClick={handleButtonClick}>
+				<Button shape="round" type="primary" onClick={handleButtonClick}>
 						Connect Wallet
-					</Button>
-				)}
+				</Button>
 			</div>
 			<Modal
 				title="Connect to Tonkeeper"
