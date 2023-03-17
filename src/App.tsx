@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { AppTitle } from 'src/components/AppTitle/AppTitle';
-import { TxForm } from 'src/components/TxForm/TxForm';
+import { AuthButton } from 'src/components/AuthButton/AuthButton';
 import { connector } from 'src/connector';
 import './app.scss';
 
