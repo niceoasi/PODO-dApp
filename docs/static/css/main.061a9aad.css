@@ -30,7 +30,7 @@
     width:-moz-fit-content;
     width: fit-content
 }.auth-button, .send-tx-form {
-    display: flex;flex-direction: column
+    display: flex;flex-direction: row
 }.send-tx-form {
     align-items: center;
     gap: 20px;
