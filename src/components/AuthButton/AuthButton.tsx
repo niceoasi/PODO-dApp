@@ -74,7 +74,7 @@ export function AuthButton() {
 
 	return (
 		<>
-			<div className="auth-button">
+			<div className="button">
 				{wallet ? (
 					<Dropdown overlay={menu}>
 						<Button shape="round" type="primary">
