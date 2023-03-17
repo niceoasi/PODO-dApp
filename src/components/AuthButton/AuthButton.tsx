@@ -76,7 +76,7 @@ export function AuthButton() {
 		<>
 			<div className="auth-button">
 				<Button shape="round" type="primary" onClick={handleButtonClick}>
-						Connect Wallet
+						OKay
 				</Button>
 			</div>
 			<Modal
