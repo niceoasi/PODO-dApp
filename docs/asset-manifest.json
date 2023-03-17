@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/demo-dapp/static/css/main.061a9aad.css",
-    "main.js": "/demo-dapp/static/js/main.cf4b405a.js",
-    "index.html": "/demo-dapp/index.html",
-    "main.061a9aad.css.map": "/demo-dapp/static/css/main.061a9aad.css.map",
-    "main.cf4b405a.js.map": "/demo-dapp/static/js/main.cf4b405a.js.map"
+    "main.css": "/PODO-dApp/static/css/main.061a9aad.css",
+    "main.js": "/PODO-dApp/static/js/main.cf4b405a.js",
+    "index.html": "/PODO-dApp/index.html",
+    "main.061a9aad.css.map": "/PODO-dApp/static/css/main.061a9aad.css.map",
+    "main.cf4b405a.js.map": "/PODO-dApp/static/js/main.cf4b405a.js.map"
   },
   "entrypoints": [
     "static/css/main.061a9aad.css",

@@ -1,5 +1,5 @@
 {
-  "name": "demo-dapp",
+  "name": "PODO-dApp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -80,7 +80,7 @@
     "eslint-plugin-react": "^7.31.10",
     "prettier": "^2.7.1"
   },
-  "homepage": "https://ton-connect.github.io/demo-dapp/",
+  "homepage": "https://niceoasi.github.io/PODO-dApp/",
   "scripts": {
     "start": "node scripts/start.js",
     "build": "DISABLE_ESLINT_PLUGIN=true BUILD_PATH='./docs' node scripts/build.js",
