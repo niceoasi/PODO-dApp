@@ -4,7 +4,7 @@ import { isMobile, openLink } from 'src/utils';
 
 const dappMetadata = {
 	manifestUrl:
-		'https://github.com/niceoasi/PODO-dApp/blob/main/test.txt',
+		'https://raw.githubusercontent.com/niceoasi/PODO-dApp/main/test.txt',
 };
 
 export const connector = new TonConnect(dappMetadata);
