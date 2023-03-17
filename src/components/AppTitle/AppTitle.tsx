@@ -23,12 +23,5 @@ export function AppTitle() {
 	}, [clicks]);
 
 	return (
-		<>
-			<div className="dapp-title" onClick={() => setClicks((x) => x + 1)}>
-				<span className="dapp-title__text">PODO dApp</span>
-				{wallet && <span className="dapp-title__badge">{chainNames[wallet.account.chain]}</span>}
-			</div>
-			<Debugger ref={debuggerRef} />
-		</>
 	);
 }
