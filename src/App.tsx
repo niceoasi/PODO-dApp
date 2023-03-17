@@ -10,14 +10,10 @@ function App() {
 	}, []);
 
 	return (
-		<div className=\"app\">
-		<header>
-			<AppTitle />
-		</header>
-		<div className=\"auth-button\">
-		<main>
-			<AuthButton />
-		</main>
+		<div className=\"app\">\
+		<div className=\"auth-button\">\
+			<AuthButton />\
+		</div>
 		</div>
 	);
 }
