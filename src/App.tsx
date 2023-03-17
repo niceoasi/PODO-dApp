@@ -14,6 +14,7 @@ function App() {
 		<header>
 			<AppTitle />
 		</header>
+		<div className=\"authButton\">
 		</div>
 	);
 }
