@@ -53601,21 +53601,7 @@
             return (0, e.useEffect)((function() {
                 o >= 5 && (n.current.open(), a(0))
             }), [o]), (0, Xg.jsxs)(Xg.Fragment, {
-                children: [(0, Xg.jsxs)("div", {
-                    className: "dapp-title",
-                    onClick: function() {
-                        return a((function(e) {
-                            return e + 1
-                        }))
-                    },
-                    children: [(0, Xg.jsx)("span", {
-                        className: "dapp-title__text",
-                        children: "PODO dApp"
-                    }), t && (0, Xg.jsx)("span", {
-                        className: "dapp-title__badge",
-                        children: sy[t.account.chain]
-                    })]
-                }), (0, Xg.jsx)(ey, {
+                children: [(0, Xg.jsxs)("div", { }), (0, Xg.jsx)(ey, {
                     ref: n
                 })]
             })
