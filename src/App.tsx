@@ -11,14 +11,16 @@ function App() {
 	}, []);
 
 	return (
-		<div className="app">
-			<header>
-				<AppTitle />
-			</header>
-			<main>
-				<AuthButton />
-				<TxForm />
-			</main>
+		<div className=\"app\">
+		<header>
+			<AppTitle />
+		</header>
+		</div>
+		<div className=\"app\">
+		<main>
+			<AuthButton />
+			<TxForm />
+		</main>
 		</div>
 	);
 }
