@@ -96,34 +96,5 @@ export function TxForm() {
 	);
 
 	return (
-		<div className="send-tx-form">
-			<Title level={3}>Configure and send transaction</Title>
-
-			{wallet && tx ? (
-				<>
-					<Title level={4}>Create NFT and send to the friend</Title>
-					<div className="send-tx-wrapper">
-						<div className="send-tx-input-wrapper">
-							(Optional) Send NFT to (user friendly address):
-							<Input value={sendTo} onChange={(e) => setSendTo(e.target.value)}></Input>
-							<span className={cn('send-tx-input-wrapper-error', { 'send-tx-input-wrapper-error_show': addressError })}>
-								Wrong address
-							</span>
-						</div>
-						<ReactJson src={tx} theme="ocean" onEdit={onChange} onAdd={onChange} onDelete={onChange} />
-						<Button
-							type="primary"
-							shape="round"
-							disabled={addressError}
-							onClick={() => sendTransaction(tx, walletsList.contents.walletsList[0])}
-						>
-							Send transaction
-						</Button>
-					</div>
-				</>
-			) : (
-				<div className="send-tx-form__error">Connect wallet to send the transaction</div>
-			)}
-		</div>
 	);
 }
