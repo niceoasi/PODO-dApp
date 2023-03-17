@@ -15,12 +15,6 @@ function App() {
 			<AppTitle />
 		</header>
 		</div>
-		<div className=\"app\">
-		<main>
-			<AuthButton />
-			<TxForm />
-		</main>
-		</div>
 	);
 }
 
